@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nextprot-expression-viewer
 
 [![NPM version](http://img.shields.io/npm/v/nextprot-expression-viewer.svg)](https://www.npmjs.org/package/nextprot-expression-viewer) 
@@ -53,3 +54,6 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
+=======
+# expression-viewer
+>>>>>>> ed6d170e83544e37c1f18221e24fe18b4263f832
