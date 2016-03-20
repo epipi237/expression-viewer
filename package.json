@@ -1,18 +1,18 @@
 {
   "name": "expression-viewer",
   "description": "This is a package to aid in the visualisation of various nextprot proteins based on their expression in various human tissues and on various evidences providing these expression data",
-  "version": "0.1.0",
-  "homepage": "https://github.com/gastonnche/nextprot-expression-viewer",
+  "version": "0.1.1",
+  "homepage": "https://github.com/gastonnche/expression-viewer",
   "author": {
     "name": "shizle",
     "email": "gastonnkh@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gastonnche/nextprot-expression-viewer.git"
+    "url": "git://github.com/gastonnche/expression-viewer.git"
   },
   "bugs": {
-    "url": "https://github.com/gastonnche/nextprot-expression-viewer/issues"
+    "url": "https://github.com/gastonnche/expression-viewer/issues"
   },
   "license": "Apache-2.0",
   "main": "lib/index.js",
@@ -29,7 +29,9 @@
 		"css": "parcelify ./ -c build/bundle.css",
 		"watch-css": "parcelify -w ./ -c build/bundle.css --loglevel verbose"
   },
-  "dependencies": {},
+  "dependencies": {
+	"d3":"x.x.x."
+},
   "devDependencies": {
 		"mkdirp": "^0.5.0",
 		"browserify": "6.x",
