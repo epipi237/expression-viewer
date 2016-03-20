@@ -1,7 +1,7 @@
 # expression-viewer
 
-[![NPM version](http://img.shields.io/npm/v/nextprot-expression-viewer.svg)](https://www.npmjs.org/package/nextprot-expression-viewer) 
-[![Build Status](https://secure.travis-ci.org/gastonnche/nextprot-expression-viewer.png?branch=master)](http://travis-ci.org/gastonnche/nextprot-expression-viewer) 
+[![NPM version](http://img.shields.io/npm/v/expression-viewer.svg)](https://www.npmjs.org/package/nextprot-expression-viewer) 
+[![Build Status](https://secure.travis-ci.org/gastonnche/expression-viewer.png?branch=master)](http://travis-ci.org/gastonnche/nextprot-expression-viewer) 
 
 > This is a package to aid in the visualisation of various nextprot proteins based on their expression in various human tissues and on various evidences providing these expression data
 
@@ -9,8 +9,8 @@
 Install the module with: `npm install expression-viewer`
 
 ```javascript
-var viewer = require('nextprot-expression-viewer');
-viewer.hello("biojs"); // "hello biojs"
+var viewer = require('expression-viewer');
+viewer.render(); // "expression chart per tissue"
 ```
 
 ## Documentation
@@ -35,7 +35,7 @@ All contributions are welcome.
 
 ## Support
 
-If you have any problem or suggestion please open an issue [here](https://github.com/gastonnche/nextprot-expression-viewer/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/gastonnche/expression-viewer/issues).
 
 ## License 
 This software is licensed under the Apache 2 license, quoted below.
