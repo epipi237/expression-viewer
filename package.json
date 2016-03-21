@@ -6,7 +6,7 @@
   "author": "shizle <gastonnkh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gastonnche/expression-viewer.git"
+    "url": "https://github.com/gastonnche/expression-viewer.git"
   },
   "bugs": {
     "url": "https://github.com/gastonnche/expression-viewer/issues"
