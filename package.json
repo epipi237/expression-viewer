@@ -76,7 +76,9 @@
     "proteins",
     "tissues",
     "human",
-    "biojs"
+    "biojs",
+    "gaston",
+    "che"
   ],
   "directories": {
     "example": "examples",
