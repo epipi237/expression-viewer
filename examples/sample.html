@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <div id=rootDiv></div>
+        <script src="../lib/index.js"></script>
+        <script>
+            var rootDiv = document.getElementById("rootDiv");
+            var nextprot = require("expression-viewer");
+            var viewer = new nextprot({el: rootDiv});
+            viewer.render('NX_P01308');
+        </script>
+    </body>
+</html>
