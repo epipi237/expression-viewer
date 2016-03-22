@@ -10,23 +10,33 @@ Install the module with: `npm install expression-viewer`
 
 ```javascript
 var viewer = require('expression-viewer');
-viewer.render(); // "expression chart per tissue"
+new Viewer({el:"div",protein:"uniprot", colors:{}}); // "expression chart per tissue for the uniprot"
 ```
 
 ## Documentation
 
-#### .render()
+#### colors
 
-**Parameter**: ``
-**Type**: `void`
-**Example**: `null`
+**properties**: ``
+**positive**: `string` color string
+**negative**: `string` color string
+**high**: `string` color string
+**low**: `string` color string
+**medium**: `string` color string
 
-The 'render' method is responsible for rendering the view a name.
+The 'color' option is responsible for choosing custom colors for the bars. it is an optional parameter.
 
-How to use this method
+How to use this option
 
 ```javascript
-viewer.render(); // "render the expression visualizer"
+colors={
+	positive:"lightgreen",
+	high:"green",
+	medium:"blue",
+	low:"lightred",
+	negative:"red"
+	}
+var next = new viewer({el: rootDiv,protein:'NX_P01308',colors:colors});
 ```
 
 ## Contributing
