@@ -83,5 +83,15 @@
   "directories": {
     "example": "examples",
     "test": "test"
-  }
+  },
+  "contributors":[
+      {
+          "name":"Gaston Che",
+          "email":"gastonche@gmail.com"
+      },
+      {
+          "name":"Vaumi Vaumi Ezechiel",
+          "email" : "vauvaumi@gmail.com"
+      }
+  ]
 }
